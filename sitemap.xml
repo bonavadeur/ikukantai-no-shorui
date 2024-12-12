@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://ikukantai.bonavadeur.io.vn/</loc>
+        <lastmod>2024-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ikukantai.bonavadeur.io.vn/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ikukantai.bonavadeur.io.vn/ja/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://ikukantai.bonavadeur.io.vn/vi/"/>
+    </url>
+    <url>
+        <loc>https://ikukantai.bonavadeur.io.vn/vi/</loc>
+        <lastmod>2024-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://ikukantai.bonavadeur.io.vn/vi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ikukantai.bonavadeur.io.vn/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ikukantai.bonavadeur.io.vn/ja/"/>
+    </url>
+    <url>
+        <loc>https://ikukantai.bonavadeur.io.vn/ja/</loc>
+        <lastmod>2024-12-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://ikukantai.bonavadeur.io.vn/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://ikukantai.bonavadeur.io.vn/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://ikukantai.bonavadeur.io.vn/vi/"/>
+    </url>
+</urlset>
