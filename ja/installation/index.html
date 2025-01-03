@@ -1,0 +1,630 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ikukantai.bonavadeur.io.vn/ja/installation/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/logo.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>Installation - Ikukantai - 行く艦隊</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../" title="Ikukantai - 行く艦隊" class="md-header__button md-logo" aria-label="Ikukantai - 行く艦隊" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ikukantai - 行く艦隊
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../installation/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../vi/installation/" hreflang="vi" class="md-select__link">
+              Tiếng Việt
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bonavadeur/ikukantai" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+    
+  
+  ホーム
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="Ikukantai - 行く艦隊" class="md-nav__button md-logo" aria-label="Ikukantai - 行く艦隊" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.ico" alt="logo">
+
+    </a>
+    Ikukantai - 行く艦隊
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bonavadeur/ikukantai" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ホーム
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. System requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-install-support-mechanisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Install support mechanisms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Install support mechanisms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-monlat-the-network-latency-monitoring-system-for-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Monlat - the network latency monitoring system for Kubernetes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-prometheus-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install Prometheus Stack
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-monlat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install monlat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-seika-kubernetes-custom-resource-maintains-quantity-of-pod-in-each-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Seika - Kubernetes Custom Resource maintains quantity of Pod in each Node
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-install-knative-serving-with-kourier-is-networking-option-and-our-extra-controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Install Knative Serving with Kourier is networking option and Our Extra-Controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-making-some-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Making some changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Making some changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-kourier-gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1. Kourier Gateway
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-check-your-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Check your setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-try-it-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Try it out
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="installation">Installation</h1>
+<h2 id="1-system-requirements">1. System requirements</h2>
+<ul>
+<li>Some nodes are Physical Machine or Virtual Machine, least 4 CPU and 16GB RAM for master-node and  3 CPU 6GB RAM for each worker-nodes  </li>
+<li>Ubuntu-Server or Ubuntu Desktop version 20.04  </li>
+<li>Kubernetes version 1.26.3  </li>
+<li>Calico installed on Kubernetes cluster  </li>
+<li>MetalLB installed on Kubernetes cluster (for laboratory experiments, we deploy system on a bare-metal cluster)  </li>
+<li>Helm is installed</li>
+</ul>
+<h2 id="2-install-support-mechanisms">2. Install support mechanisms</h2>
+<h3 id="21-monlat-the-network-latency-monitoring-system-for-kubernetes">2.1. Monlat - the network latency monitoring system for Kubernetes</h3>
+<p>We develop a network latency monitoring system named <code>monlat</code>, for more detail and installation please visit <a href="https://github.com/bonavadeur/monlat">monlat</a>. First, let's install Prometheus Stack on Kubernetes Cluster, then install <code>monlat</code> later. The network latency metrics will be collected by Prometheus.</p>
+<h3 id="install-prometheus-stack">Install Prometheus Stack</h3>
+<p>We follow Prometheus Stacks installation guide from <a href="https://knative.dev/docs/serving/observability/metrics/collecting-metrics/">Knative's Docs</a></p>
+<pre><code class="language-bash">$ helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+$ helm repo update
+$ helm install prometheus prometheus-community/kube-prometheus-stack -n default -f manifest/prometheus/values.yaml
+
+$ kubectl apply -f https://raw.githubusercontent.com/knative-extensions/monitoring/main/grafana/dashboards.yaml
+
+$ kubectl create namespace metrics
+$ kubectl apply -f https://raw.githubusercontent.com/knative/docs/main/docs/serving/observability/metrics/collector.yaml
+</code></pre>
+<p>Note: <a href="https://grafana.com/docs/alloy/latest/reference/components/otelcol/otelcol.exporter.logging/#:~:text=The%20OpenTelemetry%20Collector%20logging%20exporter,Collector%20repository%20in%20September%202024.">The OpenTelemetry Collector</a> logging exporter is deprecated and removed from the upstream Collector repository in September 2024, so that you have to change all <code>logging</code> fields to <code>debug</code> using the following commands:</p>
+<pre><code class="language-bash">chmod +x ./hack/fix-otel-collector-cfg.sh
+./hack/fix-otel-collector-cfg.sh
+</code></pre>
+<h3 id="install-monlat">Install monlat</h3>
+<p>Follow <a href="https://github.com/bonavadeur/monlat">monlat installation guide</a> to install <code>monlat</code> correctly. <code>monlat</code> is released under Apache License.</p>
+<h3 id="22-seika-kubernetes-custom-resource-maintains-quantity-of-pod-in-each-node">2.2. Seika - Kubernetes Custom Resource maintains quantity of Pod in each Node</h3>
+<p>To control the ability of create and delete Function in each Node exactly, we develop a Kubernetes Custom Resource named <a href="https://github.com/bonavadeur/seika">Seika</a>. Seika operate like a bunch of Deployments that each Deployment control number of Pod in only one Node. By using Seika, we can create more Functions in Node that have more traffic and delete less Functions in Node that have less traffic. To install, please visit <a href="https://github.com/bonavadeur/seika">Seika</a>. The Seika's document includes guides for installation, usage, development. <code>Seika</code> is released under Apache License.</p>
+<h2 id="3-install-knative-serving-with-kourier-is-networking-option-and-our-extra-controller">3. Install Knative Serving with Kourier is networking option and Our Extra-Controller</h2>
+<p>In this step we install Knative Serving's components (CRD, Knative's Pods) by applying .yaml files. Notes that the applied manifests is modified by ours, we do not use the original images and configurations. Our images are developed base on <a href="https://github.com/knative/serving/tree/release-1.12">Knative-Serving</a> version 1.12.1 and <a href="https://github.com/knative-extensions/net-kourier/tree/release-1.12">Kourier</a> version 1.12.1</p>
+<pre><code class="language-bash"># Install CRD
+kubectl apply -f manifest/1-serving-crd.yaml
+# Install Knative's Pod
+kubectl apply -f manifest/2-serving-core.yaml
+# Extra configmap and RBAC
+kubectl apply -f manifest/miporin/configmap.yaml
+kubectl apply -f manifest/miporin/rbac.yaml
+# Install Networking Plugin
+kubectl apply -f manifest/3-kourier.yaml
+# Run domain config job
+kubectl apply -f manifest/4-serving-default-domain.yaml
+</code></pre>
+<p>Wait until job/default-domain is success</p>
+<pre><code class="language-bash"># check if default-domain job is success
+kubectl -n knative-serving get job | grep default-domain
+NAME             COMPLETIONS   DURATION   AGE
+default-domain   1/1           13s        71s
+# delete config job
+kubectl delete -f manifest/4-serving-default-domain.yaml
+</code></pre>
+<p>Install extra-controller <code>miporin</code></p>
+<pre><code class="language-bash">kubectl apply -f manifest/miporin/miporin.yaml
+</code></pre>
+<p><code>miporin</code> is the extra-controller working alongside and is independently of Knative's controller. For more information about <code>miporin</code>, please visit <a href="https://github.com/bonavadeur/miporin">bonavadeur/miporin</a>. Miporin is released under Apache License.</p>
+<p>Install correct images by version</p>
+<pre><code class="language-bash"># Replace Knative's images by Ikukantai's images
+chmod +x -R hack/*
+./hack/replace-image.sh
+</code></pre>
+<h2 id="4-making-some-changes">4. Making some changes</h2>
+<h3 id="41-kourier-gateway">4.1. Kourier Gateway</h3>
+<pre><code class="language-bash"># use local 3scale-kourier-gateway pod for every request
+kubectl -n kourier-system patch service kourier --patch '{&quot;spec&quot;:{&quot;internalTrafficPolicy&quot;:&quot;Local&quot;,&quot;externalTrafficPolicy&quot;:&quot;Local&quot;}}'
+kubectl -n kourier-system patch service kourier-internal --patch '{&quot;spec&quot;:{&quot;internalTrafficPolicy&quot;:&quot;Local&quot;}}'
+</code></pre>
+<h2 id="5-check-your-setup">5. Check your setup</h2>
+<p>You must see <strong>3scale-kourier-gateway</strong> and <strong>activator</strong> present in all nodes, each node has one <strong>activator</strong> and one <strong>3scale-kourier-gateway</strong></p>
+<pre><code class="language-bash">$ kubectl -n knative-serving get pod -o wide | grep activator
+activator-5cd6cb5f45-5nnnb                1/1     Running     0                156m   10.233.75.29     node2   &lt;none&gt;           &lt;none&gt;
+activator-5cd6cb5f45-fkp2r                1/1     Running     0                156m   10.233.102.181   node1   &lt;none&gt;           &lt;none&gt;
+activator-5cd6cb5f45-j6bqq                1/1     Running     0                156m   10.233.71.47     node3   &lt;none&gt;           &lt;none&gt;
+
+$ kubectl -n kourier-system get pod -o wide
+NAME                                     READY   STATUS    RESTARTS         AGE    IP               NODE    NOMINATED NODE   READINESS GATES
+3scale-kourier-gateway-864554589-5dgxl   1/1     Running   11 (5h26m ago)   2d5h   10.233.75.28     node2   &lt;none&gt;           &lt;none&gt;
+3scale-kourier-gateway-864554589-btfqf   1/1     Running   12 (5h21m ago)   2d5h   10.233.71.29     node3   &lt;none&gt;           &lt;none&gt;
+3scale-kourier-gateway-864554589-p7q56   1/1     Running   13 (5h29m ago)   2d5h   10.233.102.176   node1   &lt;none&gt;           &lt;none&gt;
+
+$ kubectl -n knative-serving get pod | grep miporin
+miporin-597dcddbc-qvlc6                   1/1     Running     0                143m
+</code></pre>
+<h2 id="6-try-it-out">6. Try it out</h2>
+<p>Each time you deploy a <strong>ksvc</strong> (in API service.serving.knative.dev), <code>ikukantai</code> will create two custom resources automatically: one Seika and one ServiceMonitor.</p>
+<ul>
+<li><strong>Seika</strong> (in API seika.batch.bonavadeur.io) is used for ability of controlling Function creation and deletion precisely in each Node</li>
+<li><strong>ServiceMonitor</strong> (in API servicemonitor.monitoring.coreos.com) is used for scraping metrics of each Function to Prometheus</li>
+</ul>
+<p>First, apply a simple web application named <em>hello</em>. The annotation <em>autoscaling.knative.dev/window: "12s"</em> means that if there is not traffic come to system in 12s, the Function will be scaled down. Immediately after you apply <em>hello</em> Function, the first Pod created is not under your control <em>hello</em>. You need to wait until this pod deleted after 12s, the system is now under your control.</p>
+<pre><code class="language-bash"># install a demo app
+$ kubectl apply -f manifest/demo/hello.yaml
+Warning: Kubernetes default value is insecure, Knative may default this to secure in a future release: spec.template.spec.containers[0].securityContext.allowPrivilegeEscalation, spec.template.spec.containers[0].securityContext.capabilities, spec.template.spec.containers[0].securityContext.runAsNonRoot, spec.template.spec.containers[0].securityContext.seccompProfile
+service.serving.knative.dev/hello created
+</code></pre>
+<p>Get all relevant resources:</p>
+<pre><code class="language-bash">$ kubectl get ksvc,pod,seika,servicemonitor | grep hello
+service.serving.knative.dev/hello   http://hello.default.192.168.133.2.sslip.io   hello-00001    hello-00001   True    
+pod/hello-00001-deployment-7df54dc57f-rx7xr                  2/2     Running   0               11s
+seika.batch.bonavadeur.io/hello   [&quot;node1&quot;,&quot;node2&quot;,&quot;node3&quot;]   0-0-0/0-0-0
+servicemonitor.monitoring.coreos.com/hello
+</code></pre>
+<p>Wait until the first Pod is deleted (after the period set by annotation autoscaling.knative.dev/window: "12s")</p>
+<pre><code class="language-bash">$ kubectl get ksvc,pod,seika,servicemonitor | grep hello
+service.serving.knative.dev/hello   http://hello.default.192.168.133.2.sslip.io   hello-00001    hello-00001   True
+seika.batch.bonavadeur.io/hello   [&quot;node1&quot;,&quot;node2&quot;,&quot;node3&quot;]   0-0-0/0-0-0
+servicemonitor.monitoring.coreos.com/hello
+</code></pre>
+<p>Use <code>netem</code> setup latency between nodes. In this experiment, I setup latency from <strong>node1</strong>, <strong>node2</strong> to <strong>node3</strong> is 50ms. So, when make request from node3, a new Pod is prefer scheduled on <strong>node3</strong> instead of the remain nodes.</p>
+<pre><code class="language-bash"># make request from node3
+root@node3:~$ curl hello.default.svc.cluster.local
+Konnichiwa from hello-node3-xgvq5 in node3
+
+# list all resources
+root@node1:~$ kubectl get ksvc,pod,seika,servicemonitor | grep hello
+service.serving.knative.dev/hello   http://hello.default.192.168.133.2.sslip.io   hello-00001   hello-00001   True
+pod/hello-node3-xgvq5                                        2/2     Running   0               40s
+seika.batch.bonavadeur.io/hello   [&quot;node1&quot;,&quot;node2&quot;,&quot;node3&quot;]   0-0-1/0-0-1
+servicemonitor.monitoring.coreos.com/hello
+</code></pre>
+<p>The Scheduling Algorithm is implemented in <a href="https://github.com/bonavadeur/miporin">miporin</a>, package <code>github.com/bonavadeur/miporin/pkg/yukari</code>. To enable Scheduling Feature of <code>ikukantai</code> Fleet, set config <code>ikukantai-miporin-enable-yukari: "true"</code> in <code>configmap/config-ikukantai</code>, namespace <code>default</code></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
