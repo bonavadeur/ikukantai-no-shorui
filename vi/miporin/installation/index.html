@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#installation" class="md-skip">
+          Bỏ qua
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -308,6 +313,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-requirement" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Requirement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Installation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -325,9 +358,18 @@
   
 
 
-  <h1>Installation</h1>
-
-
+<h1 id="installation">Installation</h1>
+<h2 id="1-requirement">1. Requirement</h2>
+<ul>
+<li><a href="https://github.com/bonavadeur/ikukantai?tab=readme-ov-file#3-installation">ikukantai</a> Fleet is deployed, version &gt;= 2.0</li>
+<li><a href="https://ko.build/install/">ko build</a> is installed, version 0.16.0</li>
+<li><a href="https://go.dev/doc/install">Go</a> is installed, version &gt;= 1.22.4</li>
+<li><a href="">Docker</a> is installed. <code>docker</code> command can be invoked without sudo</li>
+</ul>
+<h2 id="2-installation">2. Installation</h2>
+<p><code>miporin</code> is deployed in namespace <strong>knative-serving</strong></p>
+<pre><code class="language-bash">kubectl apply -f config/miporin.yaml
+</code></pre>
 
 
 
