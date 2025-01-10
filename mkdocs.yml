@@ -12,6 +12,7 @@ theme:
   features:
   - navigation.tabs
   - navigation.tabs.sticky
+  - navigation.sections
   - search.suggest
   - search.highlight
 extra_css:
@@ -27,7 +28,38 @@ plugins:
       build: true
       reconfigure_search: true
       nav:
-      - Home: index.md
+      - Home:
+        - Introduction: index.md
+        - Architecture: architecture.md
+        - Features:
+          - Overview: features/index.md
+          - Scheduler: features/scheduler.md
+          - Load Balancer: features/load-balancer.md
+          - Queue Modifier: features/queue-modifier.md
+        - How to start?: how-to-start.md
+      - Installation: installation.md
+      - Miporin:
+        - Overview: miporin/index.md
+        - Architecture: miporin/architecture.md
+        - Installation: miporin/installation.md
+        - Development: miporin/development.md
+        - Learn: miporin/learn.md
+        - References: miporin/references.md
+      - Katyusha:
+        - Overview: katyusha/index.md
+        - Architecture: katyusha/architecture.md
+        - Installation: katyusha/installation.md
+        - Development: katyusha/development.md
+        - Learn: katyusha/learn.md
+        - References: katyusha/references.md
+      - Nonna:
+        - Overview: nonna/index.md
+        - Architecture: nonna/architecture.md
+        - Installation: nonna/installation.md
+        - Development: nonna/development.md
+        - Learn: nonna/learn.md
+        - References: nonna/references.md
+      - About: about.md
     - locale: vi
       name: Tiếng Việt
       build: true

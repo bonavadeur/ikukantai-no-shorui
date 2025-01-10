@@ -17,6 +17,6 @@
 
 `ikukantai` đã được công bố khoa học tại Hội thảo Khoa học Quốc tế IEEE CloudNet vào tháng 11/2024 tại Brasil trong Paper: **FaaSt: A Latency-aware Serverless Scheme for Edge–Cloud Environments**. `FaaSt` là phiên bản PoC của `ikukantai` phục vụ cho công bố khoa học. `ikukantai` là tên chính thức cho dự án này.
 
-Bản quyền về quyền vận hành và triển khai Hạm Đội `ikukantai` thuộc về [Bonavadeur](https://github.com/bonavadeur)
+Bản quyền về quyền vận hành, khai thác và triển khai Hạm Đội `ikukantai`, bao gồm tất cả các quyền phân phối và sử dụng trong các công bố khoa học được độc quyền thuộc về [Bonavadeur Tokyo](https://github.com/bonavadeur)
 
-![ikukantai](assets/images/ikukantai_wp.jpg)
+![ikukantai](assets/images/ikukantai/ikukantai_wp.jpg)

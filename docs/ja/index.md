@@ -19,6 +19,6 @@
 `ikukantai`は、2024年11月にブラジルで開催されたIEEE CloudNet国際学術会議で、論文「**FaaSt: A Latency-aware Serverless Scheme for Edge–Cloud Environments**」を通じて発表されました。
 `FaaSt`はこのプロジェクトの科学的発表のためのPoC（概念実証）版として機能しており、`ikukantai`はこのプロジェクトの正式名称です。
 
-`ikukantai`艦隊の運用および展開権は、[Bonavadeur](github.com/bonavadeur)に帰属します。
+`ikukantai`艦隊の運用および展開権は、[Bonavadeur Tokyo](https://github.com/bonavadeur) 「**陶侠ボナ**」に帰属します。
 
-![ikukantai](assets/images/ikukantai_wp.jpg)
+![ikukantai](assets/images/ikukantai/ikukantai_wp.jpg)

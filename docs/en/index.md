@@ -17,6 +17,6 @@
 
 `ikukantai` was accepted at the IEEE CloudNet International Scientific Conference in November 2024 in Brazil, through the paper: **FaaSt: A Latency-aware Serverless Scheme for Edge–Cloud Environments**. `FaaSt` served as the proof-of-concept (PoC) version of `ikukantai` for the scientific publication, and `ikukantai` is the official name for this project.
 
-The operational and deployment license of the `ikukantai` Fleet are owned by [Bonavadeur](github.com/bonavadeur).
+The permission of operational, exploitation and deployment for the `ikukantai` Fleet, encompassing all rights related to its distribution and usage in publications are exclusively held and managed by [Bonavadeur Tokyo](https://github.com/bonavadeur).
 
-![ikukantai](assets/images/ikukantai_wp.jpg)
+![ikukantai](/assets/images/ikukantai/ikukantai_wp.jpg)
