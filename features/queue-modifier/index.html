@@ -1238,7 +1238,11 @@
 <a href="https://go.dev/"><img alt="Go" src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&amp;logo=go&amp;logoColor=white" /></a>
 <a href="https://protobuf.dev/"><img alt="Protobuf" src="https://img.shields.io/badge/Protobuf-log?style=for-the-badge&amp;logo=nani&amp;logoColor=green&amp;labelColor=red&amp;color=darkgreen" /></a></p>
 <p><code>Nonna</code> is the Queue Modifier Module of the <a href="https://github.com/bonavadeur/ikukantai">ikukantai Fleet</a></p>
-<p><img alt="miporin" src="/assets/images/nonna/nonna_wp.jpg" /></p>
+<p><img alt="nonna" src="/assets/images/nonna/nonna_wp.jpg" /></p>
+<p><code>nonna</code> supports deploying Queue-Modifying Algorithm in <code>ikukantai</code> Fleet without deeping into Knative source code.</p>
+<p><code>nonna</code> is actually <strong>Knative Queue-Proxy</strong> underneath. In the Vanilla Knative Serving, The queueing model implemented in Queue-Proxy is FIFO Queue. Although FIFO is a simple queueing model, it is not the most optimal queueing model in some complicated scenarios. By using <code>nonna</code>, you can implement your own priority queue that adopts parameters such as: <strong>HTTP method</strong>, <strong>URI path</strong>, <strong>HTTP Header</strong>, <strong>Source IP address</strong> and <strong>Domain name</strong>.</p>
+<p><code>nonna</code> also supports piggybacking based Load Balancer in the <code>ikukantai</code> Fleet along with <a href="https://github.com/bonavadeur/katyusha">katyusha</a> by modifying HTTP header of responsed packets.</p>
+<p>The name <code>nonna</code> is inspired by the character <strong>Nonna</strong> in the anime <strong>Girls und Panzer</strong>. <code>nonna</code> and <a href="https://github.com/bonavadeur/katyusha">katyusha</a> form a complete Load Balancing system for the <code>ikukantai</code> Fleet. This Load Balancing system uses piggybacking mechanism to update load status as fast as possible, much like how <strong>Nonna</strong> always carries <strong>Katyusha</strong> on her back in anime <strong>Girls und Panzer</strong>.</p>
 
 
 
