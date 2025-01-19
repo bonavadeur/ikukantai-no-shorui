@@ -13,3 +13,7 @@
 `miporin`-chan is the extra-controller of `ikukantai` Fleet, working alongside and independently of Knative's controller.
 
 ![miporin](/assets/images/miporin/miporin_wp.png)
+
+To achieve the [goals](https://github.com/bonavadeur/ikukantai?tab=readme-ov-file#1-motivation) posed by the `ikukantai` Fleet, in addition to modifying Knative's source code, we needed a component acts as a controller that exploits the refined code inside Knative. In theory, we can develop additional logic in Knative's controller component. However, that will be more difficult than developing an extra external component for PoC purposes in the Laboratory (yaa, we work in the Laboratory, not Industry).
+
+The name `miporin` is inspired by the character `Nishizumi Miho` from the anime `Girls und Panzer`. Miho is the tank commander, implying `miporin`'s leadership role in the `ikukantai` fleet (remember that Ooarai High School is located in an aircraft carrier, and, `ikukantai` is implied to be that ship). `miporin` is nickname given to Miho by her friends.
