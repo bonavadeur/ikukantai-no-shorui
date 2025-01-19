@@ -1,6 +1,6 @@
 # 行く艦隊の書類
 
-![ikukantai](docs/assets/images/ikukantai_wp.jpg)
+![ikukantai](docs/assets/images/ikukantai/ikukantai_wp.jpg)
 
 ```bash
 mkdocs serve
